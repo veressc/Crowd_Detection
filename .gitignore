@@ -1,0 +1,10 @@
+# окружение и кэш
+.venv/
+venv/
+__pycache__/
+.idea/
+
+# веса и видео
+output.mp4
+yolov8n.pt
+*.pt
