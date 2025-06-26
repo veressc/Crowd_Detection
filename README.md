@@ -28,8 +28,10 @@ cd people-detection
 2. Создайте виртуальное окружение и активируйте его:
 
 ```bash
-python -m venv venv
-venv\Scripts\activate 
+python -m venv .venv
+.venv\Scripts\activate #Для Windows
+source .venv/bin/activate # Для Mac/Linux
+
 ```
 3. Установите зависимости:
 ```bash
